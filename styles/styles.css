@@ -11,7 +11,7 @@
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0px 35px 0px 200px;
+    margin: 30px 200px 50px 200px;
     background-color: rgba(153, 202, 179, 1);
     padding: 100px;
     border-radius: 24px;
@@ -68,6 +68,102 @@ color: rgba(14, 14, 14, 0.5);
 .banner-profile-pic{
     width: 580px;
 }
+.section-title{
+    font-size: 30px;
+}
 .banner-content{
     width: 580px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+   
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px #D7D7F7;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 2px;
+}
+.open-sans-normal{
+background-color: rgba(245, 245, 245, 1);
+}
+.vision-container{
+    display: flex;
+    gap: 24px;
+
+}
+.vision{
+    padding: 30px;
+    border-radius: 5px; 
+    background-color: rgb(229, 245, 245); 
+   
+}
+.fist-vision{
+background-color: #81B4FC;
+border-radius: 5px;
+/* margin: :left; */
+padding: 24px;
+}
+.second-vision{
+    background-color: rgba(59, 203, 203, 1);
+    padding: 24px;
+    border-radius: 5px;
+}
+/* bnt-styles */
+.btn-perimary{
+    background-color: #5490F5;
+    color: white;
+   border: none;
+   padding: 8px 16px;
+   border-radius: 5px;
+}
+.btn-second{
+    background-color: #1D985F;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.btn-thirt{
+    background-color: #FFC239;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.thirt-vision{
+    background-color: #F7EBCF;
+    border-radius: 5px;
+    padding: 24px;
+}
+.news{
+    display: flex;
+    width: 1180px;
+}
+.news-container{
+    background-color: hwb(40 85% 11%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.news-title{
+    font-size: 40px;
+  color: black;
+  
+}
+.news-greetind{
+    font-size: 32px;
+    color: black;
+}
+.btn-news{
+    background-color: #1D985F;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
 }
